@@ -28,14 +28,15 @@ class WishlistPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(
-                'assets/cart-icon.png',
+                'assets/icon_wishlist.png',
                 width: 74,
+                color: warnatulisan,
               ),
               SizedBox(
                 height: 23,
               ),
               Text(
-                'Keranjangmu masih kosong',
+                'Wishlistmu masih kosong',
                 style: tulisanTextStyle.copyWith(
                   fontSize: 16,
                   fontWeight: medium,
@@ -59,7 +60,7 @@ class WishlistPage extends StatelessWidget {
                 child: TextButton(
                   onPressed: () {},
                   style: TextButton.styleFrom(
-                    backgroundColor: warnatulisan,
+                    backgroundColor: priceColor,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12),
                     ),
@@ -89,8 +90,8 @@ class WishlistPage extends StatelessWidget {
               ),
               children: [
                 WishlistCard(),
-                //WishlistCard(),
-                //WishlistCard(),
+                WishlistCard(),
+                WishlistCard(),
               ],
             )),
       );

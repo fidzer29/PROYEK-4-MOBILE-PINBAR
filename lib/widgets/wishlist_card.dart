@@ -23,7 +23,7 @@ class WishlistCard extends StatelessWidget {
           ClipRRect(
             borderRadius: BorderRadius.circular(12),
             child: Image.asset(
-              'assets/image_ransel.png',
+              'assets/image_tenda.png',
               width: 60,
             ),
           ),
@@ -35,7 +35,7 @@ class WishlistCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Ransel 60L',
+                  'Tenda 4 Orang',
                   style: primaryTextStyle.copyWith(
                     fontSize: 16,
                     fontWeight: semiBold,

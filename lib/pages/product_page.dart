@@ -9,21 +9,21 @@ class ProductPage extends StatefulWidget {
 
 class _ProductPageState extends State<ProductPage> {
   List images = [
-    'assets/image_ransel.png',
-    'assets/image_ransel.png',
-    'assets/image_ransel.png',
+    'assets/image_tenda.png',
+    'assets/image_tenda.png',
+    'assets/image_tenda.png',
   ];
 
   List similar = [
-    'assets/image_ransel.png',
-    'assets/image_ransel.png',
-    'assets/image_ransel.png',
-    'assets/image_ransel.png',
-    'assets/image_ransel.png',
-    'assets/image_ransel.png',
-    'assets/image_ransel.png',
-    'assets/image_ransel.png',
-    'assets/image_ransel.png',
+    'assets/image_tenda.png',
+    'assets/image_tenda.png',
+    'assets/image_tenda.png',
+    'assets/image_tenda.png',
+    'assets/image_tenda.png',
+    'assets/image_tenda.png',
+    'assets/image_tenda.png',
+    'assets/image_tenda.png',
+    'assets/image_tenda.png',
   ];
 
   int currentIndex = 0;
@@ -235,7 +235,7 @@ class _ProductPageState extends State<ProductPage> {
                   child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('Ransel 60 Liter',
+                        Text('TENDA 4 ORANG',
                             style: tulisanTextStyle.copyWith(
                               fontSize: 18,
                               fontWeight: semiBold,
@@ -325,7 +325,7 @@ class _ProductPageState extends State<ProductPage> {
                   height: 12,
                 ),
                 Text(
-                  'Ransel 60 Liter ini adalah ransel yang terbuat dari bahan premium, bisa di gunakan untuk hiking, sekolah, ngampus dll.',
+                  'Tenda berukuran kecil, bisa digunakan untuk 2 orang.',
                   style: tulisanTextStyle.copyWith(
                     fontWeight: light,
                   ),

@@ -27,7 +27,7 @@ class CheckoutCard extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                   image: DecorationImage(
                     image: AssetImage(
-                      'assets/image_ransel.png',
+                      'assets/image_tenda.png',
                     ),
                   ),
                 ),
@@ -40,7 +40,7 @@ class CheckoutCard extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Ransel 60 L',
+                      'Tenda 4 Orang',
                       style: tulisanTextStyle.copyWith(
                         fontSize: 14,
                         fontWeight: semiBold,

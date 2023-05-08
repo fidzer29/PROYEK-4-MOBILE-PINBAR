@@ -34,7 +34,7 @@ class ChatBubble extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(12),
                 child: Image.asset(
-                  'assets/image_ransel.png',
+                  'assets/image_tenda.png',
                   width: 54,
                 ),
               ),
@@ -46,7 +46,7 @@ class ChatBubble extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Ransel 60 Liter',
+                        'TENDA 4 ORANG',
                         style: tulisanTextStyle,
                       ),
                       SizedBox(

@@ -25,7 +25,7 @@ class DetailChatPage extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(12),
               child: Image.asset(
-                'assets/image_ransel.png',
+                'assets/image_tenda.png',
                 width: 54,
               ),
             ),
@@ -38,7 +38,7 @@ class DetailChatPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'RANSEL 60 Liter',
+                    'TENDA 4 ORANG',
                     style: tulisanTextStyle,
                     overflow: TextOverflow.ellipsis,
                   ),
@@ -148,7 +148,7 @@ class DetailChatPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'SAGA POLBAN',
+                    'Satria Camp Store',
                     style: primaryTextStyle.copyWith(
                       fontSize: 14,
                       fontWeight: semiBold,

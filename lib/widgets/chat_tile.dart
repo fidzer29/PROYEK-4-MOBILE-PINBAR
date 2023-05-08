@@ -28,14 +28,14 @@ class ChatTile extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'SAGA POLBAN',
+                        'Satria Camp Store',
                         style: tulisanTextStyle.copyWith(
                           fontSize: 15,
                           fontWeight: semiBold,
                         ),
                       ),
                       Text(
-                        'Hallo Kak, untuk barang ini ready ya, boleh langsung di checkout saja',
+                        'Halo kak, untuk barang ini ready ya, boleh langsung di checkout saja.',
                         style: tulisankecilTextStyle.copyWith(
                           fontWeight: light,
                         ),
@@ -56,7 +56,7 @@ class ChatTile extends StatelessWidget {
               height: 12,
             ),
             Divider(
-              thickness: 1,
+              thickness: 0.5,
               color: Color(0xff2B2939),
             ),
           ],
