@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/theme.dart';
 
-const List<String> list = <String>['Hiking', 'Camping', 'Rumahan', 'Traveling'];
+const List<String> list = <String>['Hiking', 'Tenda', 'Kompor', 'Ransel'];
 
 class DropdownButtonExample extends StatefulWidget {
   const DropdownButtonExample({super.key});
