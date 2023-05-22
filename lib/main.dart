@@ -10,6 +10,7 @@ import 'package:flutter_application_1/pages/intro_page.dart';
 import 'package:flutter_application_1/pages/checkout_page.dart';
 import 'package:flutter_application_1/pages/checkout_success_page.dart';
 import 'package:flutter_application_1/pages/edit_profile_page.dart';
+import 'package:flutter_application_1/pages/upload_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
         '/cart': (context) => CartPage(),
         '/checkout': (context) => CheckoutPage(),
         '/checkout-success': (context) => CheckoutSuccessPage(),
+        '/upload': (context) => UploadPage(),
       },
     );
   }

@@ -120,6 +120,14 @@ class ProfilePage extends StatelessWidget {
               menuItem(
                 'Pesanan Kamu',
               ),
+              GestureDetector(
+                onTap: () {
+                  Navigator.pushNamed(context, '/upload');
+                },
+                child: menuItem(
+                  'Upload Barang',
+                ),
+              ),
               menuItem(
                 'Tentang Kami',
               ),
